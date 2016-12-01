@@ -1,4 +1,4 @@
-public class QSTLinkList 
+public class Solution
 {
 	public static class Node{
 		public int value;
@@ -15,6 +15,10 @@ public class QSTLinkList
 		}
 	}
 	private static void printLinkList(Node head) {
+		 while(head!=null){  
+		        System.out.print(head.value+"->");  
+		        head=head.next;
+		    }  
 	}
   
   public static void main( String[] args ){
